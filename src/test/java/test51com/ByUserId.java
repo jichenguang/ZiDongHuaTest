@@ -26,7 +26,7 @@ public class ByUserId {
         
         WebElement elementPassword = dr.findElement(By.id("txtPassword"));
         System.out.println(elementPassword.getAttribute("value")); 
-        System.out.println(elementPassword.getTagName());
+        //System.out.println(elementPassword.getTagName());
        
         
         //关闭浏览器
